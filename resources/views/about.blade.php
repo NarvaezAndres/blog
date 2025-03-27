@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nosotros</title>
-</head>
-<body>
-    @include('navbar.navigation')
-    <h1>nosotros</h1>
-</body>
-</html>
+<x-layout>
+
+    @section('title', 'Acerca de')
+    <h1>Acerca de Nosotros</h1>
+    <p>Somos un blog dedicado a la tecnología y la informática. Nuestro objetivo es compartir conocimiento.</p>
+</x-layout>

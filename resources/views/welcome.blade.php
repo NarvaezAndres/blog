@@ -1,12 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Informatico</title>
-</head>
-<body>
-    @include('navbar.navigation')
+<x-layout>
+    @section('title', 'Inicio')
     <h1>Inicio</h1>
-</body>
-</html>
+
+    <p>Eso es del Bienvenida</p>
+
+    <form action="">
+        <label for=""></label>
+        <input type="text" name="" id="">
+        <label for=""></label>
+        <input type="number" name="" id="">
+        <button type="submit">Enviar</button>
+    </form>
+
+</x-layout>

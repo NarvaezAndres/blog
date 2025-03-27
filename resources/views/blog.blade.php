@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>blog</title>
-</head>
-<body>
-    @include('navbar.navigation')
+<x-layout>
+
+    @section('title', 'Blog')
     <h1>Blog</h1>
-</body>
-</html>
+    <p>Bienvenido a nuestro blog. Aquí encontrarás artículos sobre diversos temas relacionados con la tecnología.</p>
+    <ul>
+        <li><a href="/blog/post1">Post 1</a></li>
+        <li><a href="/blog/post2">Post 2</a></li>
+        <li><a href="/blog/post3">Post 3</a></li>
+    </ul>
+</x-layout>
