@@ -6,6 +6,7 @@
     <title>nosotros</title>
 </head>
 <body>
+    @include('navbar.navigation')
     <h1>nosotros</h1>
 </body>
 </html>

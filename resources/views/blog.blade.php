@@ -6,6 +6,7 @@
     <title>blog</title>
 </head>
 <body>
+    @include('navbar.navigation')
     <h1>Blog</h1>
 </body>
 </html>
