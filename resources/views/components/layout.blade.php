@@ -7,6 +7,9 @@
 </head>
 <body>
     @include('navbar.navigation')
+    
     {{ $slot }}
+
+    
 </body>
 </html>
